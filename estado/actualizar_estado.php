@@ -55,6 +55,9 @@ $estado = $crud->obtenerEstado($_GET['id_estado']);
 		</div>
 	</div>
 	</div>
+	<footer class="pt-3 pl-3">
+    Maceira/Ruiz/Salinas/Trillo - 2020
+  </footer>
 </body>
 
 </html>
