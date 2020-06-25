@@ -97,7 +97,7 @@ $listaIntegrantes = $crud->mostrar();
 					<div class="form-group row form-group-nospace">
 						<label for="observaciones" class="col-12 col-form-label label-blanca">Observaciones</label>
 						<div class="col-12">
-							<input class="form-input" id="observaciones" type='text' name='observaciones' required>
+							<input class="form-input" id="observaciones" type='text' name='observaciones'>
 						</div>
 					</div>
 
