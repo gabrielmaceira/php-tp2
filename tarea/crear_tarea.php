@@ -86,7 +86,7 @@ $listaIntegrantes = $crud->mostrar();
 								<?php foreach ($listaIntegrantes as $integrante) { ?>
 									<option value="<?php echo $integrante->getId() ?>">
 										<?php
-										$nombreapellido = "#" . $integrante->getId() . " - " . $integrante->getNombre() . " " . $integrante->getApellido();
+										$nombreapellido = $integrante->getNombre() . " " . $integrante->getApellido();
 										echo $nombreapellido
 										?>
 									</option>
